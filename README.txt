@@ -15,6 +15,8 @@ light: the location of the light in 3d space, the type of light it is (1 for poi
 v: list of vertex positions
 f: list of triangle definitions
 vn: list of vertex normal vectors
+vt: list of texture cordinates
+texture: the ppm texture to be aplied to proceeding objects
 
 enables the user to specify, for each smooth shaded triangle, indices into the array of vertex normal directions as well as into the array of vertex positions. Please use this syntax to define smooth-shaded triangles:
   f   v1//vn1    v2//vn2    v3//vn3
